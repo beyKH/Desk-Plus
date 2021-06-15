@@ -252,8 +252,7 @@ top: 0;
   width: 255px;
   /* padding-right: 60px; */
 }
-.address-title {
-}
+
 .address-desc {
   color: white;
   font-family: var(--poppins-font);
