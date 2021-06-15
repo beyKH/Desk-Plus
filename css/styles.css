@@ -112,9 +112,9 @@ img {
   position: absolute;
   z-index: 50;
   width: 100%;
-left: 0;
-right: 0;
-top: 0;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 .form-box {
   width: 1110px;
