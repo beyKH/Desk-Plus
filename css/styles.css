@@ -78,6 +78,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 img {
@@ -115,7 +116,7 @@ img {
   width: 100%;
   left: 0;
   right: 0;
-  top: 0;
+  top: -233px;
 }
 .form-box {
   width: 1110px;
@@ -178,16 +179,16 @@ img {
   height: 56px;
   padding: 20px 50px;
 
-
-/* .youtube__section {
+}
+.youtube__section {
   display: block;
   padding-top: 145px;
   padding-bottom: 145px;
-  background-image: url(../img/youtube.png);
+  background-image: url("../img/youtube.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
-  width: 100%;
+  /* background-size: cover; */
+  /* width: 100%; */
 }
 
 .youtube__link {
@@ -198,7 +199,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
 /* BACKGROUND IMAGE  */
 
@@ -325,10 +326,12 @@ img {
 /* FOOTER */
 
 .site__footer {
+
+  position: relative;
   padding-top: 367px;
   padding-bottom: 31px;
   background-color: #152242;
-
+}
 /* HERO SECTION  */
 
 .site-hero {
@@ -466,18 +469,23 @@ img {
   color: #fff;
 }
 
-  .card__list {}
-.kits::before{
-  content: '';
-  position: absolute;
-  bottom: calc(0% - 265px);
-  left: calc(50% - 900px);
-  z-index: 10;
-  background-image: url("../img/d.svg");
-  width: 381px;
-  height: 436px;
-  background-repeat: no-repeat;
-}
+  .card__list {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 31px;
+    list-style: none;
+  }
+  /* .kits::before{
+    content: '';
+    position: absolute;
+    bottom: calc(0% - 265px);
+    left: calc(50% - 900px);
+    /* z-index: 10; */
+    background-image: url("../img/d.svg");
+    width: 381px;
+    height: 436px;
+    background-repeat: no-repeat;
+  } */
 
 .kits__container{
 
@@ -695,8 +703,7 @@ img {
 
 
 
-  color: var(--color-black);
-}
+
 
 .furniture__heading {
   font-family: var(--poppins-font);
@@ -770,9 +777,7 @@ img {
   background-color: #fff;
   padding-top: 169px;
   padding-bottom: 146px;
-  background-image: url(../img/stupid-d.svg);
-  background-repeat: no-repeat;
-  background-position: calc(50% + 745px) -245px;
+
 
 }
 
