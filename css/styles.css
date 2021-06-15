@@ -108,6 +108,14 @@ img {
 
 
 /* FORM */
+.form{
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+left: 0;
+right: 0;
+top: 0;
+}
 .form-box {
   width: 1110px;
   padding-top: 75px;
@@ -197,6 +205,13 @@ img {
   padding-top: 367px;
   padding-bottom: 31px;
   background-color: #152242;
+  position: relative;
+  z-index: 1;
+}
+
+.footer__container{
+
+  padding-right: 80px;
 }
 .footer-inner {
   display: flex;
@@ -235,6 +250,7 @@ img {
 }
 .footer__address {
   width: 255px;
+  /* padding-right: 60px; */
 }
 .address-title {
 }
