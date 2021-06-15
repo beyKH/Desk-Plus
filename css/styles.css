@@ -106,10 +106,36 @@ img {
   margin-right: auto;
 }
 
+
+/* .youtube__section {
+  display: block;
+  padding-top: 145px;
+  padding-bottom: 145px;
+  background-image: url(../img/youtube.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.youtube__link {
+  display: flex;
+}
+
+.youtube__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
 .benefits__section {
   background-color: #fff;
   padding-top: 169px;
   padding-bottom: 146px;
+  background-image: url(../img/stupid-d.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 745px) -245px;
+
 }
 
 .benefits__info {
@@ -210,6 +236,94 @@ img {
   font-size: 18px;
   line-height: 28px;
   color: #b1b6ca;
+}
+
+
+.experience__section {
+  display: block;
+  padding-top: 126px;
+  padding-bottom: 518px;
+  background-color: #fff;
+  background-image: url(../img/desk-bgimg.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + -349px) top;
+}
+
+.experience__box{
+  width: 445px;
+  margin-left: auto;
+  margin-right: 155px;
+}
+
+.experience__info {
+  font-family: var(--poppins-font);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.experience__heading {
+  width: 445px;
+  margin: 0;
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.experience__heading::after{
+  display: block;
+  width: 154px;
+  height: 6px;
+  background-color: var(--color-blue);
+  margin-top: 20px;
+  margin-bottom: 25px;
+  content: "";
+}
+
+.experience__text {
+  font-family: var(--rubik-font);
+  width: 445px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #b1b6ca;
+  margin: 0;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: var(--dm-sans-font);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.experience__btn{
+  display: inline-block;
+  margin-top: 50px;
+  color: #fff;
+  border: 2px solid transparent;
+  background-color: var(--color-blue);
+  padding: 20px 50px;
+  transition: background-color 0.4s ease,
+    border 0.4s ease,
+    color 0.4s ease;
+}
+
+.experience__btn:hover{
+  background-color: #fff;
+  border: 2px solid var(--color-blue);
+  color: var(--color-blue);
 }
 
 
