@@ -129,137 +129,6 @@ img {
   margin-right: auto;
 } */
 
-.benefits__section {
-  background-color: #fff;
-  padding-top: 169px;
-  padding-bottom: 146px;
-  background-image: url(../img/stupid-d.svg);
-  background-repeat: no-repeat;
-  background-position: calc(50% + 745px) -245px;
-
-}
-
-.benefits__info {
-  font-family: var(--poppins-font);
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 34px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.benefits__heading {
-  width: 432px;
-  margin: 0;
-  font-family: var(--poppins-font);
-  font-weight: 500;
-  font-size: 38px;
-  line-height: 48px;
-  color: #000;
-  margin-top: 20px;
-}
-
-.benefits__heading::after{
-  display: block;
-  width: 183px;
-  height: 7px;
-  background-color: var(--color-blue);
-  margin-top: 20px;
-  margin-bottom: 60px;
-  content: "";
-}
-
-.benefits__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-
-.benefits__item {
-  display: flex;
-  width: 375px;
-  margin-right: 31px;
-}
-
-.benefits__item:last-child{
-  margin-right: 0;
-}
-
-.benefits__item::before{
-  display: flex;
-  flex-shrink: 0;
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  margin-right: 16px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.07);
-  background-repeat: no-repeat;
-  background-position: center center;
-  content: "";
-}
-
-.quality::before{
-  background-image: url(../img/quality.svg);
-  content: "";
-}
-
-.shipping::before{
-  background-image: url(../img/shipping.svg);
-  content: "";
-}
-
-.warranty::before{
-  background-image: url(../img/warranty.svg);
-  content: "";
-}
-
-.benefit__box{
-  margin-top: 14px;
-}
-
-.benefit__heading {
-  margin: 0;
-  font-family: var(--poppins-font);
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 48px;
-  color: #000;
-  margin-bottom: 5px;
-}
-
-.benefit__text {
-  font-family: var(--rubik-font);
-  margin: 0;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-  color: #b1b6ca;
-}
-
-
-.experience__section {
-  display: block;
-  padding-top: 126px;
-  padding-bottom: 518px;
-  background-color: #fff;
-  background-image: url(../img/desk-bgimg.svg);
-  background-repeat: no-repeat;
-  background-position: calc(50% + -349px) top;
-}
-
-.experience__box{
-  width: 445px;
-  margin-left: auto;
-  margin-right: 155px;
-}
-
-.experience__info {
-  font-family: var(--poppins-font);
-  font-weight: normal;
-=======
 /* BACKGROUND IMAGE  */
 
 .bg-image {
@@ -730,3 +599,137 @@ img {
   text-transform: uppercase;
 }
 
+
+
+
+.benefits__section {
+  background-color: #fff;
+  padding-top: 169px;
+  padding-bottom: 146px;
+  background-image: url(../img/stupid-d.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 745px) -245px;
+
+}
+
+.benefits__info {
+  font-family: var(--poppins-font);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.benefits__heading {
+  width: 432px;
+  margin: 0;
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.benefits__heading::after {
+  display: block;
+  width: 183px;
+  height: 7px;
+  background-color: var(--color-blue);
+  margin-top: 20px;
+  margin-bottom: 60px;
+  content: "";
+}
+
+.benefits__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.benefits__item {
+  display: flex;
+  width: 375px;
+  margin-right: 31px;
+}
+
+.benefits__item:last-child {
+  margin-right: 0;
+}
+
+.benefits__item::before {
+  display: flex;
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-right: 16px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.07);
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+
+.quality::before {
+  background-image: url(../img/quality.svg);
+  content: "";
+}
+
+.shipping::before {
+  background-image: url(../img/shipping.svg);
+  content: "";
+}
+
+.warranty::before {
+  background-image: url(../img/warranty.svg);
+  content: "";
+}
+
+.benefit__box {
+  margin-top: 14px;
+}
+
+.benefit__heading {
+  margin: 0;
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.benefit__text {
+  font-family: var(--rubik-font);
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #b1b6ca;
+}
+
+
+.experience__section {
+  display: block;
+  padding-top: 126px;
+  padding-bottom: 518px;
+  background-color: #fff;
+  background-image: url(../img/desk-bgimg.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + -349px) top;
+}
+
+.experience__box {
+  width: 445px;
+  margin-left: auto;
+  margin-right: 155px;
+}
+
+.experience__info {
+  font-family: var(--poppins-font);
+  font-weight: normal;
+}
